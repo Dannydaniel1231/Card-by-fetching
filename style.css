@@ -1,0 +1,60 @@
+.container{
+    border-radius: 10px;
+    margin-left: 200px;
+   margin-top: 50px;
+    border: solid black;
+    width: 500px;
+    height: 700px;
+    background-color:  hsl(240, 2%, 22%);
+    
+}
+
+.piture{
+    align-items: center;
+    justify-items: center;
+    margin-left: 85px;
+    margin-top: 10px;
+    border: solid black;
+    width: 260px;
+    height: 280px;
+    border-radius: 40px;
+    background-color:  hsl(240, 12%, 58%);
+    
+}
+.piture img{
+    border: solid  hsl(240, 12%, 58%);
+    margin-top: 30px;
+    margin-left: 60px;
+    border-radius: 40%;
+    background-color: hsl(240, 2%, 22%);;
+    
+}
+.name h1{
+    color:  hsl(240, 12%, 58%);
+    margin-left: 200px;
+}
+.name h4{
+    color:white;
+    margin-left: 100px;
+}
+.name h3{
+    color:white;
+    margin-left: 200px;
+}
+.line{
+    width: 400px;
+    margin-left: 20px;
+}
+.profile img{
+    border: solid white;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.profile{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.profile h2{
+    color:  hsl(240, 12%, 58%);
+}
